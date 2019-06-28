@@ -14,6 +14,7 @@
 		1087638D22C5ADD700486023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1087638B22C5ADD700486023 /* LaunchScreen.storyboard */; };
 		1087639822C5ADD700486023 /* SystemPermissionSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1087639722C5ADD700486023 /* SystemPermissionSwiftTests.swift */; };
 		108763A322C5ADD700486023 /* SystemPermissionSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108763A222C5ADD700486023 /* SystemPermissionSwiftUITests.swift */; };
+		108763B222C5AE1000486023 /* SystemPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108763B122C5AE1000486023 /* SystemPermission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1087639E22C5ADD700486023 /* SystemPermissionSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemPermissionSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		108763A222C5ADD700486023 /* SystemPermissionSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPermissionSwiftUITests.swift; sourceTree = "<group>"; };
 		108763A422C5ADD700486023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108763B122C5AE1000486023 /* SystemPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPermission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1087638122C5ADD600486023 /* SystemPermissionSwift */ = {
 			isa = PBXGroup;
 			children = (
+				108763B022C5ADEC00486023 /* SystemPermission */,
 				1087638222C5ADD600486023 /* AppDelegate.swift */,
 				1087638422C5ADD600486023 /* ViewController.swift */,
 				1087638622C5ADD600486023 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				108763A422C5ADD700486023 /* Info.plist */,
 			);
 			path = SystemPermissionSwiftUITests;
+			sourceTree = "<group>";
+		};
+		108763B022C5ADEC00486023 /* SystemPermission */ = {
+			isa = PBXGroup;
+			children = (
+				108763B122C5AE1000486023 /* SystemPermission.swift */,
+			);
+			path = SystemPermission;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				1087638522C5ADD600486023 /* ViewController.swift in Sources */,
 				1087638322C5ADD600486023 /* AppDelegate.swift in Sources */,
+				108763B222C5AE1000486023 /* SystemPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
